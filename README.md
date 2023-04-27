@@ -40,6 +40,7 @@ The script evaluate.py evaluates the new candidate model against the current cha
 ## Model Architecture
 
 The model architecture consists of a series of residual blocks, followed by global average pooling and two dense output layers: one for the policy and one for the value.
+
 ##Customization
 
 You can adjust the following parameters to suit your needs:
