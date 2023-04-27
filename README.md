@@ -45,9 +45,9 @@ The model architecture consists of a series of residual blocks, followed by glob
 
 You can adjust the following parameters to suit your needs:
 
-* MAX_GAME_COUNT: The number of games played to generate training data.
-* MCTS_EVALUATE_COUNT: The number of MCTS evaluations performed for each move.
-* TEMPERATURE: A parameter controlling the exploration/exploitation trade-off during MCTS.
+* `MAX_GAME_COUNT`: The number of games played to generate training data.
+* `MCTS_EVALUATE_COUNT`: The number of MCTS evaluations performed for each move.
+* `TEMPERATURE`: A parameter controlling the exploration/exploitation trade-off during MCTS.
 
 Please note that these parameters may affect the performance of the algorithm and should be tuned accordingly.
 
