@@ -82,7 +82,7 @@ def to_x(state):
 
 def predict(model, state):
     x = to_x(state).reshape(1, 3, 3, 2)
-    y = model.predict(x, batch_size=1)
+    y = model.predict(x, batch_size=1, verpose=0)
 
     policies = y[0][0][list(state.legal_actions)]
     policies /= sum(policies) if sum(policies) else 1
