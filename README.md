@@ -40,23 +40,26 @@ The script evaluate.py evaluates the new candidate model against the current cha
 ## Model Architecture
 
 The model architecture consists of a series of residual blocks, followed by global average pooling and two dense output layers: one for the policy and one for the value.
-##Customization
+
+## Customization
 
 You can adjust the following parameters to suit your needs:
 
-* MAX_GAME_COUNT: The number of games played to generate training data.
-* MCTS_EVALUATE_COUNT: The number of MCTS evaluations performed for each move.
-* TEMPERATURE: A parameter controlling the exploration/exploitation trade-off during MCTS.
+* `MAX_GAME_COUNT`: The number of games played to generate training data.
+* `MCTS_EVALUATE_COUNT`: The number of MCTS evaluations performed for each move.
+* `TEMPERATURE`: A parameter controlling the exploration/exploitation trade-off during MCTS.
 
 Please note that these parameters may affect the performance of the algorithm and should be tuned accordingly.
 
-# License
+## License
 
 This project is licensed under the MIT License. See the LICENSE file for more details.
-# Contributing
+## Contributing
 
 If you would like to contribute to this project, please feel free to fork the repository, make your changes, and submit a pull request. We appreciate your help!
-# Acknowledgements
+## Acknowledgements
+
+This project is a restructured version created for study purposes, based on "AlphaZero that even a 49-year-old dude could make this year (https://github.com/tail-island/tictactoe-ai)." While there are differences in the details, please note that it was created using the original code as a foundation.
 
 This project is inspired by the original AlphaZero paper by DeepMind:
 
